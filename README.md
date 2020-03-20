@@ -9,7 +9,6 @@ Abstraction and Extensibility:
         version..which then should be plugged in testBmp.h :: testInitializeBmpDFLT ()
         since its the only function in bmp ADT that directly hsa something to do with the DIB header ADTs.
         2. DIB ADTs have complete control over pixelArrays
-
 IMPORTANT :
     >Please note that all the unit testers have been disabled by /* */ style comments
     >finalBuild has all the unit tests disabled (its compiled without testBmp.c)
